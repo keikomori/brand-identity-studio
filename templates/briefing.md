@@ -26,6 +26,7 @@
 - **Concorrentes diretos:** ____
 - **Concorrentes indiretos:** ____
 - **Como os concorrentes se apresentam visualmente** (cores, formas, tipografia): ____
+- **Atividade regulada?** (saúde, odontologia, direito, contabilidade e similares): se sim, qual conselho ou ordem regula a publicidade: ____
 
 ## Bloco 3 — Contexto
 

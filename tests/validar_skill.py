@@ -139,6 +139,12 @@ secoes_manual = re.findall(r"^## (\d+)\. ", manual_exemplo, flags=re.MULTILINE)
 check("manual-exemplo.md tem as 10 seções do roteiro", secoes_manual == [str(n) for n in range(1, 11)],
       f"seções: {secoes_manual}")
 
+# 9d. Correções da execução de casos
+check("descrição cobre tokens para código (C11)", "tokens de design para IA ou código" in desc)
+check("Limites cobrem atividades reguladas (C03)", "atividades reguladas" in texto)
+check("briefing pergunta atividade regulada (C03)",
+      "Atividade regulada?" in ler(os.path.join(RAIZ, "templates", "briefing.md")))
+
 # 9c. Referência de DESIGN.md: tailwind é alias de json-tailwind
 check("design-md.md declara tailwind como alias de json-tailwind",
       "alias fixo de `json-tailwind`" in design)

@@ -1,6 +1,6 @@
 ---
 name: visual-identity
-description: "Cria e revisa identidades visuais e marcas para negócios brasileiros: briefing, estratégia, naming, logo, paleta, tipografia, manual de marca e DESIGN.md. Use para pedidos de logo, marca, identidade visual, rebranding, paleta, nome da empresa, manual de marca ou tokens de design para IA. Não use para peças pontuais, componentes de interface, revisão de textos ou legendas. Também atende brand identity e logo design."
+description: "Cria e revisa identidades visuais e marcas para negócios brasileiros: briefing, estratégia, naming, logo, paleta, tipografia, manual de marca e DESIGN.md. Use para pedidos de logo, marca, identidade visual, rebranding, paleta, nome da empresa, manual de marca ou tokens de design para IA ou código. Não use para peças pontuais, componentes de interface, revisão de textos ou legendas. Também atende brand identity e logo design."
 ---
 
 # Identidade Visual e Marca (Brasil)
@@ -79,6 +79,7 @@ Ao fechar o trabalho, leia `templates/checklist-entrega.md`.
 - Não afirme que elemento gerado por IA, imagem de banco ou fonte é protegível ou livre de uso sem verificar a licença.
 - Não crie dados de mercado, pesquisas ou depoimentos.
 - Não copie logos, tipografias ou identidades de terceiros.
+- Em atividades reguladas (saúde, odontologia, direito, contabilidade e similares), a publicidade segue regras do conselho ou da ordem profissional. Pergunte qual é e oriente o cliente a confirmar com a entidade. Não afirme que uma peça está em conformidade.
 
 ## Recursos sob demanda
 
