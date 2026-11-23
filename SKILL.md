@@ -1,6 +1,6 @@
 ---
 name: visual-identity
-description: Especialista em criação de identidade visual e marca para o mercado brasileiro — estratégia, naming, logo, paleta, tipografia, sistema visual, manual de marca e tokens de design. Use para criar ou revisar marcas, logos, identidades visuais, manuais de marca, ou sistemas visuais para agentes de IA. Brand identity, logo design, visual identity, brand guidelines.
+description: Cria e revisa identidades visuais e marcas para negócios brasileiros: briefing, estratégia, naming, logo, paleta, tipografia, manual de marca e DESIGN.md para agentes de IA. Use quando o usuário pedir logo, marca, identidade visual, rebranding, paleta de cores, nome da empresa, manual de marca ou brand book, ou tokens de design para IA. Também atende pedidos em inglês como brand identity e logo design.
 ---
 
 # Identidade Visual e Marca (Brasil)
@@ -29,6 +29,21 @@ Não use para: design de peça pontual sem contexto de marca (um banner de um di
 5. **Decisões são do cliente.** Você recomenda com justificativa; quem aprova é a pessoa responsável pela marca.
 6. **Não invente fatos.** Se faltar informação sobre o negócio, o público ou os concorrentes, pergunte ou marque como hipótese.
 
+## Como conduzir a conversa
+
+Antes de produzir qualquer entregável, conduza o briefing em blocos:
+
+- **Bloco 1 — Negócio**: o que vende, para quem, qual problema resolve e há quanto tempo existe.
+- **Bloco 2 — Marca atual**: existe uma marca? O que deve ser preservado? O que incomoda hoje?
+- **Bloco 3 — Contexto**: onde a marca vai aparecer, orçamento, prazo e quem aprova.
+
+Regras de condução:
+
+- Faça no máximo três perguntas por vez. Avance para o bloco seguinte só quando o anterior estiver respondido.
+- Se o usuário não souber responder, proponha uma hipótese, marque-a como "hipótese" e peça confirmação. Não trave o trabalho por falta de uma resposta.
+- Não gere logo, paleta ou nome antes da estratégia aprovada. Se o usuário pedir uma exploração rápida, entregue-a marcada como "exploração sem aprovação".
+- Ao final do briefing, resuma as respostas e peça aprovação antes da Fase 2.
+
 ## Processo
 
 O processo tem sete fases, com um portão de aprovação entre elas. Não avance sem o aval da fase anterior.
@@ -53,6 +68,16 @@ Entregável: documento de briefing com perguntas respondidas e lacunas marcadas.
 
 Entregável: relatório de auditoria com mapa competitivo visual.
 
+### Naming — etapa própria, quando o nome não existe ou está em dúvida
+
+Execute após a Fase 2, porque o nome influencia o posicionamento e precisa ser avaliado com as informações da pesquisa.
+
+- Gere opções e avalie cada uma em: significado em português e em outras línguas que o público conhece, sentido negativo ou apelidos indesejados, facilidade de pronúncia e de soletração por telefone, extensão, disponibilidade de domínio .com.br e de handles nas redes sociais.
+- Faça a **checagem preliminar no INPI**: busca por marcas semelhantes na classe pretendida, conforme a Classificação de Nice.
+- Deixe explícito que a busca no INPI não substitui parecer de advogado especializado em propriedade intelectual.
+
+Portão: nome aprovado junto com a estratégia, na Fase 3.
+
 ### Fase 3 — Estratégia de marca
 
 - **Propósito e proposta de valor**: por que a marca existe e por que o cliente deve escolher essa marca.
@@ -60,7 +85,7 @@ Entregável: relatório de auditoria com mapa competitivo visual.
 - **Posicionamento**: o lugar que a marca ocupa na mente do público, em uma frase.
 - **Arquétipo** (opcional): use como guia de tom e comportamento, não como destino final.
 - **Modelo de Kapferer** (opcional, recomendado para marcas com muitos pontos de contato): físico, relacionamento, reflexo, autoimagem, cultura e personalidade. Serve como checklist de consistência.
-- **Naming** (se o nome ainda não existe ou está em dúvida): gerar opções, avaliar pronúncia em português, significado, disponibilidade de domínio e handle de redes, e **checagem preliminar no INPI** (busca por marcas semelhantes na classe pretendida, conforme a Classificação de Nice). A busca no INPI não substitui parecer de advogado.
+- **Arquitetura de marca** (se houver mais de um produto, serviço ou marca): definir se as submarcas herdam o logo da marca-mãe, usam endosso ou têm identidade própria. Decidir antes do conceito visual, para evitar que logos concorram dentro do mesmo negócio.
 
 Portão: estratégia aprovada por escrito antes de qualquer esboço.
 
@@ -93,13 +118,14 @@ Testes obrigatórios antes de aprovar:
 - **Teste de cor única**: funciona em preto, branco e uma cor só?
 - **Teste de escala**: 16×16 px, 80×80 px e 1000 px.
 - **Teste de contexto**: sobre fotos, em fundo ruidoso e em avatar circular.
+- **Teste de daltonismo**: simular protanopia e deuteranopia e confirmar que a marca continua legível e que a hierarquia não depende só da diferença entre verde e vermelho.
 
 Se houver orçamento e tempo, complemente com teste de público (A/B, reconhecimento, associação de atributos). Lembre que o método de pesquisa pode mudar o resultado, por isso documente amostra e critérios.
 
 ### Fase 6 — Sistema visual
 
 - **Paleta**: cor primária, secundária, neutras e cores de apoio. Cada cor com HEX, RGB, CMYK e, se houver necessidade de impressão de precisão, Pantone. Defina a hierarquia de uso e as combinações aprovadas com contraste verificado.
-- **Tipografia**: uma fonte de títulos e uma de texto, com escala tipográfica definida. Verifique licença de uso comercial e disponibilidade em Google Fonts ou em fornecedor pago. Fontes de uso gratuito precisam de checagem de licença para uso comercial no Brasil.
+- **Tipografia**: uma fonte de títulos e uma de texto, com escala tipográfica definida. Verifique a licença de cada fonte, inclusive as gratuitas, porque algumas restringem uso comercial, uso em logotipo ou incorporação em arquivos. Confirme que a licença cobre a logo, e não só o texto.
 - **Grid, espaçamento e formas**: sistema de espaçamento (ex.: múltiplos de 4 ou 8 px) e formas de apoio, como bordas, cantos e padrões.
 - **Iconografia e ilustração**: estilo, traço e limites.
 - **Fotografia**: direção de luz, cor, enquadramento e o que não usar.
@@ -109,9 +135,10 @@ Se houver orçamento e tempo, complemente com teste de público (A/B, reconhecim
 
 Entregue:
 - **Manual de marca** (PDF ou página web), com: propósito, personalidade, logo e variações, proteção e usos incorretos, paleta, tipografia, imagens, voz e exemplos de aplicação.
-- **Aplicações prioritárias**: Instagram (perfil, post, story, destaque), WhatsApp (perfil e mensagens de template), site, cartão de visita, assinatura de e-mail, embalagem ou etiqueta, apresentação, e no Mercado Livre ou Shopee, foto de capa e imagens de produto.
+- **Aplicações prioritárias**: Instagram (perfil, post, story, destaque), WhatsApp (foto de perfil, perfil comercial no WhatsApp Business e mensagens de template), perfil da empresa no Google, para negócios com atendimento presencial ou local, site, cartão de visita, assinatura de e-mail, embalagem ou etiqueta, apresentação e, nos marketplaces como Mercado Livre e Shopee, foto de capa e imagens de produto.
 - **Arquivos**: SVG (vetor), PNG transparente em alta resolução, PDF para impressão e, se necessário, arquivo fonte.
 - **Plano de implementação**: ordem de troca de perfis e materiais, e responsável por cada item.
+- **Medição**: indicadores simples revisados a cada trimestre, como a consistência das aplicações em uma auditoria e, quando houver orçamento, o reconhecimento espontâneo da marca.
 
 ## Sistema visual para agentes de IA (opcional, recomendado)
 
@@ -130,7 +157,8 @@ Avise o cliente que o formato é recente e pode mudar.
 - [ ] Briefing respondido, com lacunas marcadas
 - [ ] Estratégia aprovada por escrito
 - [ ] Três direções conceituais com racional
-- [ ] Logo testado: squint, cor única, escala e contexto
+- [ ] Naming verificado: significado, pronúncia, domínio e handles
+- [ ] Logo testado: squint, cor única, escala, contexto e daltonismo
 - [ ] Variações entregues: principal, monocromática, reduzida, fundos claros e escuros
 - [ ] Área de proteção e tamanho mínimo definidos
 - [ ] Paleta com HEX, RGB, CMYK e contraste WCAG verificado
