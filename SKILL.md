@@ -1,6 +1,6 @@
 ---
 name: visual-identity
-description: Cria e revisa identidades visuais e marcas para negócios brasileiros: briefing, estratégia, naming, logo, paleta, tipografia, manual de marca e DESIGN.md para agentes de IA. Use quando o usuário pedir logo, marca, identidade visual, rebranding, paleta de cores, nome da empresa, manual de marca ou brand book, ou tokens de design para IA. Também atende pedidos em inglês como brand identity e logo design.
+description: "Cria e revisa identidades visuais e marcas para negócios brasileiros: briefing, estratégia, naming, logo, paleta, tipografia, manual de marca e DESIGN.md para agentes de IA. Use quando o usuário pedir logo, marca, identidade visual, rebranding, paleta de cores, nome da empresa, manual de marca ou brand book, ou tokens de design para IA. Também atende pedidos em inglês como brand identity e logo design."
 ---
 
 # Identidade Visual e Marca (Brasil)
