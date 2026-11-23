@@ -130,6 +130,19 @@ checklist = ler(os.path.join(RAIZ, "templates", "checklist-entrega.md"))
 itens = re.findall(r"^- \[ \] ", checklist, flags=re.MULTILINE)
 check("checklist com pelo menos 15 itens", len(itens) >= 15, f"{len(itens)} itens")
 
+# 9b. Exemplos novos
+design_exemplo = ler(os.path.join(RAIZ, "examples", "DESIGN-exemplo.md"))
+check("DESIGN-exemplo.md começa com front matter na primeira linha",
+      design_exemplo.startswith("---\n"))
+manual_exemplo = ler(os.path.join(RAIZ, "examples", "manual-exemplo.md"))
+secoes_manual = re.findall(r"^## (\d+)\. ", manual_exemplo, flags=re.MULTILINE)
+check("manual-exemplo.md tem as 10 seções do roteiro", secoes_manual == [str(n) for n in range(1, 11)],
+      f"seções: {secoes_manual}")
+
+# 9c. Referência de DESIGN.md: tailwind é alias de json-tailwind
+check("design-md.md declara tailwind como alias de json-tailwind",
+      "alias fixo de `json-tailwind`" in design)
+
 # 10. Termos que não devem voltar
 proibidos = ["defensável juridicamente", "Três direções conceituais com racional\n"]
 corpus = texto + fases_1_3 + fases_4_7

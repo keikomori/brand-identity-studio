@@ -32,24 +32,42 @@ Esta skill orienta a criação de identidades visuais completas, do briefing ao 
 
 ```
 brand-identity-studio/
-├── SKILL.md    # instruções completas da skill
-├── README.md   # este arquivo
-└── LICENSE     # licença MIT
+├── SKILL.md          # mapa da skill, carregado a cada acionamento
+├── references/       # fases, trilha enxuta, DESIGN.md, revisão e fontes (sob demanda)
+├── templates/        # briefing, revisão, roteiro do manual e checklist de entrega
+├── examples/         # briefing, manual e DESIGN.md fictícios
+├── tests/            # 13 casos de teste e validador estrutural
+├── README.md
+└── LICENSE
 ```
+
+O `SKILL.md` é curto de propósito. Os demais arquivos são lidos só quando a fase, a trilha ou o entregável pedem, para economizar tokens.
 
 ## Como usar
 
-**Com o Claude:** publique a pasta como skill no Claude Skills.
+**Com o Claude:** publique a pasta como skill no Claude Skills. Para o pacote de publicação, inclua `SKILL.md`, `references/`, `templates/` e `examples/`.
 
-**Como instrução de sistema:** copie o conteúdo do [`SKILL.md`](./SKILL.md) para o prompt de um projeto.
+**Como instrução de sistema:** copie o conteúdo do [`SKILL.md`](./SKILL.md) para o prompt de um projeto. Sem as referências, a skill perde os detalhes de cada fase.
+
+**Validar a estrutura:** `python3 -I tests/validar_skill.py`
+
+**Validar um DESIGN.md:** `npx @google/design.md lint examples/DESIGN-exemplo.md`
 
 ## Roadmap
 
+Concluído:
+
 - [x] Processo em sete fases com portões de aprovação
-- [x] Checklist de entrega e limites
-- [ ] Modelos de briefing e de checklist em arquivos separados
-- [ ] Exemplos de manual de marca completos
-- [ ] Validação do DESIGN.md em exemplos reais
+- [x] Trilha completa e trilha enxuta
+- [x] Modelos de briefing, revisão, roteiro do manual e checklist em arquivos separados
+- [x] Exemplo de manual de marca completo (fictício)
+- [x] Exemplo de DESIGN.md validado com `@google/design.md` 0.4.0, sem erros nem avisos
+
+Pendente:
+
+- [ ] Executar os 13 casos de teste com o modelo, comparando o comportamento ao esperado
+- [ ] Exemplo de manual de marca de um cliente real, somente com autorização
+- [ ] Atualizar o pacote quando o DESIGN.md sair do alpha
 
 ## Contribuir
 
