@@ -18,7 +18,11 @@ Identidade visual não é só logo. É um sistema: estratégia, identidade verba
 - Preparar tokens de design e um arquivo DESIGN.md para agentes de IA.
 - Avaliar uma identidade existente antes de decidir se vale reformular.
 
-Não use para: design de peça pontual sem contexto de marca (um banner de um dia), ou para decisões jurídicas de registro, que dependem de advogado de propriedade intelectual.
+Não use para:
+- Design de peça pontual sem contexto de marca (um banner de um dia).
+- Documentação de componentes de interface: use a skill `design:design-system`.
+- Revisão de textos contra o guia de marca: use a skill `marketing:brand-review`.
+- Decisões jurídicas de registro, que dependem de advogado de propriedade intelectual.
 
 ## Princípios
 
@@ -41,7 +45,7 @@ Regras de condução:
 
 - Faça no máximo três perguntas por vez. Avance para o bloco seguinte só quando o anterior estiver respondido.
 - Se o usuário não souber responder, proponha uma hipótese, marque-a como "hipótese" e peça confirmação. Não trave o trabalho por falta de uma resposta.
-- Não gere logo, paleta ou nome antes da estratégia aprovada. Se o usuário pedir uma exploração rápida, entregue-a marcada como "exploração sem aprovação".
+- Não gere logo ou paleta antes da estratégia aprovada. Nomes podem ser propostos como candidatos, mas só são aprovados na Fase 3. Se o usuário pedir uma exploração rápida, entregue-a marcada como "exploração sem aprovação".
 - Ao final do briefing, resuma as respostas e peça aprovação antes da Fase 2.
 
 ## Processo
@@ -147,7 +151,7 @@ Quando a marca será usada por ferramentas de IA, ou por desenvolvedores e agên
 1. **Front matter em YAML** com tokens normativos: cores, tipografia, espaçamento e componentes.
 2. **Corpo em markdown** com a justificativa de cada decisão e como aplicar os tokens.
 3. **Validação**: `npx @google/design.md lint DESIGN.md` verifica estrutura, referências quebradas e contraste WCAG.
-4. **Exportação**: `npx @google/design.md export --format tailwind` ou `--format dtcg` para integrar com código.
+4. **Exportação**: escolha o formato conforme o projeto. Use `--format css-tailwind` para Tailwind v4 (bloco `@theme` em CSS), `--format json-tailwind` para Tailwind v3 (objeto de configuração) ou `--format dtcg` para o formato W3C de tokens. Evite `--format tailwind` sem especificar a versão, porque ele é um alias e a saída depende da versão.
 5. **Controle de versão**: `npx @google/design.md diff` para detectar regressões entre versões.
 
 Avise o cliente que o formato é recente e pode mudar.
